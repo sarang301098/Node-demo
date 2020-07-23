@@ -1,0 +1,21 @@
+<html>
+    <head>
+        <link href="/assest/style.css" rel="stylesheet" type="text/css"/>
+    </head>
+    <body>
+        <%- include ("./partials/header.ejs") %>
+        <h1>Welcome , <%= name %></h1>
+        <p>Age :<strong> <%= data.age %> </strong></p>
+        <p>Job : <strong><%= data.job %> </strong></p>
+        <p>hobbies:
+            <ul>
+                <% data.hobbies.forEach((item)=>{ %>
+                    <li><%= item %></li>
+               <% }); %>
+                
+            </ul>
+        </p>
+        <p>Stay Tuned For Further Notice!!</p>
+        <p><a href="https://google.com" target="__blank" >Google</a></p>
+    </body>
+</html>
