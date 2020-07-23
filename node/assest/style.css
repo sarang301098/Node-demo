@@ -1,0 +1,14 @@
+body{
+    background-color: lightblue;
+    color: white;
+    padding: 30px;
+}
+h1{
+    font-size: 50px;
+    text-align: center;
+    text-transform: uppercase;
+}
+p, ul, li{
+    font-size: 20px;
+    text-align: center;
+}
